@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>como ser uma mamaca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            color: aliceblue;
+            background-image: url('paisagem-natural-floresta.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #text {
+            font-family: 'Pacifico', cursive;
+        }
+        #macaca-bibi{
+            height: 400px;
+        }
+        #div-image{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #div-image span{
+            font-size: 32px;
+        }
+        #naoclique{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="text">MAMACA SEM CABELO</h1>
+    <h2>a mamaca sem cabelo,ela fede</h2>
+    <div id="div-image">
+        <img id="macaca-bibi" src="macaca_bibi.jpg" alt="">
+        <div id="naoclique">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span>nao clique na imagem</span>
+        </div>
+    </div>
+    <h2>essa é uma mamaca sem cabelo e o nome dela é bibi e ela é uma mamaca fedida ela gosta de comer pelo de cachorro e piolho de cobra e entao pelo fato dela comer piolh de cobra ela fica fedida </h2>
+    <script>
+        const imgMacaca = document.getElementById('macaca-bibi')
+        imgMacaca.onclick = function() {
+
+            window.open('agoravoceemamaca.html', '_blank')
+        }
+    </script>
+</body>
+
+</html>
